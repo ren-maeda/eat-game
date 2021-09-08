@@ -3,9 +3,9 @@ import Router from 'vue-router'
 
 // バトルステージ
 import Top from '@/components/Top'
-import FirstStage from '@/components/battle/FirstStage'
-import SecondStage from '@/components/battle/SecondStage'
-import ThirdStage from '@/components/battle/ThirdStage'
+import First from '@/components/stage/First'
+import Second from '@/components/stage/Second'
+import Third from '@/components/stage/Third'
 
 Vue.use(Router)
 
@@ -18,19 +18,19 @@ export default new Router({
       component: Top
     },
     {
-      path: '/battle/first',
-      name: 'FirstStage',
-      component: FirstStage
+      path: '/first',
+      name: 'First',
+      component: First
     },
     {
-      path: '/battle/second',
-      name: 'SecondStage',
-      component: SecondStage
+      path: '/second',
+      name: 'Second',
+      component: Second
     },
     {
-      path: '/battle/third',
-      name: 'ThirdStage',
-      component: ThirdStage
+      path: '/third',
+      name: 'Third',
+      component: Third
     }
   ]
 })

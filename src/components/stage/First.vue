@@ -7,15 +7,15 @@
       <BattleInfo/>
 
       <!-- 敵画像 -->
-      <EnemyArea src="/images/enemy1_active.PNG" alt="敵1"/>
+      <EnemyArea src="/images/enemy1_active.png" alt="敵1"/>
 
       <!-- オーダー表 -->
-      <OrderTable/>
+      <OrderList/>
 
       <!-- 選択肢 -->
       <OptionArea/>
     </div>
-    <Button to="/battle/second"/>
+    <Button to="/second"/>
   </div>
 </template>
 
@@ -23,7 +23,7 @@
 import Title from '@/components/sub_components/Title'
 import BattleInfo from '@/components/sub_components/BattleInfo'
 import EnemyArea from '@/components/sub_components/EnemyArea'
-import OrderTable from '@/components/sub_components/OrderTable'
+import OrderList from '@/components/sub_components/OrderList'
 import OptionArea from '@/components/sub_components/OptionArea'
 import Button from '@/components/sub_components/button/Button'
 
@@ -32,7 +32,7 @@ export default {
     Title,
     BattleInfo,
     EnemyArea,
-    OrderTable,
+    OrderList,
     OptionArea,
     Button
   }

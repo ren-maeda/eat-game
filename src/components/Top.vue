@@ -2,25 +2,34 @@
   <div>
     <div class="game-title">もぐもグエスト</div>
 
-    <Next to="/battle/first"/>
+    <div>
+      <router-link to="/first" class="start-btn">GAME START</router-link>
+    </div>
   </div>
 </template>
 
 <script>
-import Next from '@/components/sub_components/button/Next'
-
-export default {
-  components: {
-    Next
-  }
-}
 </script>
 
 <style scoped>
 
 .game-title {
   color: #fff;
-  font-size: 48px;
+  font-size: 60px;
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+
+.start-btn {
+  color: #fff;
+  font-size: 36px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 </style>

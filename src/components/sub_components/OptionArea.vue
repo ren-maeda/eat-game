@@ -1,15 +1,15 @@
 <template>
   <div class="option">
-    <img src="/images/abokado_190.PNG" alt="アボカド" class="food">
-    <img src="/images/abokado_190.PNG" alt="アボカド" class="food">
-    <img src="/images/abokado_190.PNG" alt="アボカド" class="food">
-    <img src="/images/abokado_190.PNG" alt="アボカド" class="food">
-    <img src="/images/abokado_190.PNG" alt="アボカド" class="food">
-    <img src="/images/abokado_190.PNG" alt="アボカド" class="food">
-    <img src="/images/abokado_190.PNG" alt="アボカド" class="food">
-    <img src="/images/abokado_190.PNG" alt="アボカド" class="food">
-    <img src="/images/abokado_190.PNG" alt="アボカド" class="food">
-    <img src="/images/abokado_190.PNG" alt="アボカド" class="food">
+    <img src="/images/abokado_190.png" alt="アボカド" class="food">
+    <img src="/images/abokado_190.png" alt="アボカド" class="food">
+    <img src="/images/abokado_190.png" alt="アボカド" class="food">
+    <img src="/images/abokado_190.png" alt="アボカド" class="food">
+    <img src="/images/abokado_190.png" alt="アボカド" class="food">
+    <img src="/images/abokado_190.png" alt="アボカド" class="food">
+    <img src="/images/abokado_190.png" alt="アボカド" class="food">
+    <img src="/images/abokado_190.png" alt="アボカド" class="food">
+    <img src="/images/abokado_190.png" alt="アボカド" class="food">
+    <img src="/images/abokado_190.png" alt="アボカド" class="food">
   </div>
 </template>
 
