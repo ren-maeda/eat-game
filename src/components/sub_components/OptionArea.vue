@@ -22,10 +22,13 @@ export default {
 <style>
 
 .option {
-  width: 50%;
-  height: 300px;
+  width: 40%;
+  height: 30%;
   border: 1px solid #fff;
-  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -33,6 +36,8 @@ export default {
 
 .food {
   width: 18%;
+  margin: 0 5px;
+  border: 1px solid #fff;
 }
 
 </style>

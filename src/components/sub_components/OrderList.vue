@@ -3,7 +3,6 @@
 </template>
 
 <script>
-// export default {}
 </script>
 
 <style>
@@ -13,8 +12,8 @@
   width: 20%;
   height: 50%;
   position: absolute;
-  right: 40px;
   top: 15%;
+  right: 40px;
 }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="area">
-    <img :src="src" :alt="alt" class="enemy">
+    <img :src="src" :alt="alt" width="500" height="500" class="enemy">
   </div>
 </template>
 
@@ -16,10 +16,10 @@ export default {
 <style scoped>
 
 .enemy {
-  width: 400px;
-  height: 400px;
-  display: block;
-  margin: 0 auto;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
 }
 
 </style>

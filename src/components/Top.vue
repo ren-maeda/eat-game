@@ -16,7 +16,6 @@
 .game-title {
   color: #fff;
   font-size: 60px;
-  text-align: center;
   position: absolute;
   top: 25%;
   left: 50%;

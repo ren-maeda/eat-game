@@ -1,7 +1,7 @@
 <template>
   <router-link :to="to" class="button">
     <!-- <img src="./src/assets/logo.png" alt="注文ボタン"> -->
-    <img src="/images/bell.png" alt="注文ボタン" width="200" height="200">
+    <img src="/images/bell.png" alt="注文ボタン" width="250" height="250">
   </router-link>
 </template>
 
@@ -17,7 +17,7 @@ export default {
 
 .button {
   position: absolute;
-  right: 40px;
+  right: 100px;
   bottom: 20px;
   font-size: 24px;
   color: #fff;
