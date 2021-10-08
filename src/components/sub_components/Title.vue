@@ -15,7 +15,7 @@ export default {
 .title-container {
   color: #fff;
   position: absolute;
-  left: 20px;
+  left: 35px;
   top: 20px;
   font-size: 32px;
 }
